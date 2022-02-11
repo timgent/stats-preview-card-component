@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css"/>
-  <script type="text/javascript" src="https://livejs.com/live.js"></script>
+  <script src="https://livejs.com/live.js"></script>
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -21,36 +21,36 @@
   </style>
 </head>
 <body>
-  <div class="card">
-    <!-- <div class="blue"></div> -->
-    <picture>
-      <!-- <source media="(max-width: 750px)" srcset="images/cat.jpeg"> -->
-      <source media="(max-width: 750px)" srcset="images/image-header-mobile.jpg">
-      <img src="images/image-header-desktop.jpg" alt="">
-    </picture>
-    <div class="cardtxt">
-      <h1>Get<em> insights </em>that help your business grow.</h1>
+  <main role="main">
+    <div class="card">
+      <picture>
+        <source media="(max-width: 750px)" srcset="images/image-header-mobile.jpg">
+        <img src="images/image-header-desktop.jpg" alt="">
+      </picture>
+      <div class="cardtxt">
+        <h1>Get<em> insights </em>that help your business grow.</h1>
 
-      <p>
-      Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-      experience, and overall efficiency.
-      </p>
+        <p>
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+        </p>
 
-      <div class="stats">
-        <div>
-          <p>10k+</p> 
-          <p>companies</p>
-        </div>
-        <div>
-          <p>314</p>
-          <p>templates</p>
-        </div>
-        <div>
-          <p>12M+</p>
-          <p>queries</p>
+        <div class="stats">
+          <div>
+            <p>10k+</p> 
+            <p>companies</p>
+          </div>
+          <div>
+            <p>314</p>
+            <p>templates</p>
+          </div>
+          <div>
+            <p>12M+</p>
+            <p>queries</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </body>
 </html>
